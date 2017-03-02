@@ -1,9 +1,10 @@
 
-     ,-----.,--.                  ,--. ,---. 
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  / 
-     `-----'`--' `---'  `----'  `---'  `--'  
+ _____ _                     _                        
+|_   _(_)_ __ ___   ___  ___| |_ __ _ _ __ ___  _ __  
+  | | | | '_ ` _ \ / _ \/ __| __/ _` | '_ ` _ \| '_ \ 
+  | | | | | | | | |  __/\__ \ || (_| | | | | | | |_) |
+  |_| |_|_| |_| |_|\___||___/\__\__,_|_| |_| |_| .__/ 
+                                               |_|   
     ----------------------------------------- 
 
 # Timestamp Microservive
@@ -28,8 +29,8 @@
 * Server can be started via 'node server.js'
 
 ## Routes
-### GET /:date
+### GET '/:date'
 ### param: Datestring (December%2015,%202015) or Unix timestemp (1450137600)
 ### Returns
-* Valid { Unix: <Unix representation>, Natural: <Natural/Readable representation> }
+* Valid { Unix: 'Unix timestamp representation', Natural: 'Natural/Readable date representation' }
 * Invalid { Unix: null. Natural: null }
