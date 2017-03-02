@@ -26,7 +26,8 @@
 
 ## Using this application
 
-* Server can be started via 'node server.js'
+* Run 'npm install' in the timestamp dir
+* Server can be started via 'node server.js' in the timestamp dir
 
 ## Routes
 ### GET '/:date'
