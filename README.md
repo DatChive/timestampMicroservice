@@ -16,8 +16,20 @@
 
 ## Tasks
 
-* [ ] create node server/be able to run server.js
-* [ ] Route allowing user to pass in URL parameter
-* [ ] add function checkForUnixTimestamp()
-* [ ] add function checkForNaturalDate()
-* [ ] format and return JSON to user
+* [X] create node server/be able to run server.js
+* [X] create route allowing user to pass in URL parameter
+* [X] add function checkForUnixTimestamp()
+* [X] add function checkForNaturalDate()
+* [X] format and return JSON to user
+
+
+## Using this application
+
+* Server can be started via 'node server.js'
+
+## Routes
+### GET /:date
+### param: Datestring (December%2015,%202015) or Unix timestemp (1450137600)
+### Returns
+* Valid { Unix: <Unix representation>, Natural: <Natural/Readable representation> }
+* Invalid { Unix: null. Natural: null }
