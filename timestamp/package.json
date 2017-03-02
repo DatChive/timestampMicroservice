@@ -1,0 +1,23 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "A microservive that validates natural and unix dates",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DatChive/timestampMicroservice.git"
+  },
+  "author": "Christian Gerrard <gerr0041@umn.edu>",
+  "dependencies": {
+    "express": "^3.2.6",
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DatChive/timestampMicroservice/issues"
+  },
+  "homepage": "https://github.com/DatChive/timestampMicroservice#readme"
+}
