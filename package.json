@@ -1,7 +1,7 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "description": "A microservive that validates natural and unix dates",
+  "description": "A microservive that validates natural and unix date",
   "main": "server.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "author": "Christian Gerrard <gerr0041@umn.edu>",
   "dependencies": {
-    "express": "^3.2.6",
+    "express": "^3.2.6"
   },
   "scripts": {
     "start": "node server.js"
