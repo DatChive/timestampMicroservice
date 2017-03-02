@@ -30,7 +30,7 @@
 * Server can be started via 'node server.js' in the timestamp dir
 
 ## Routes
-### GET '/:date'
+### GET '0.0.0.0:8080/:date'
 ### param: Datestring (December%2015,%202015) or Unix timestemp (1450137600)
 ### Returns
 * Valid { Unix: 'Unix timestamp representation', Natural: 'Natural/Readable date representation' }
